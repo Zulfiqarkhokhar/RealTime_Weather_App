@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+}
+h1 {
+  color: white;
+}
+.app {
+  width: 40%;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  border-radius: 10px;
+}
