@@ -10,24 +10,12 @@ body {
   background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }
 
-h1 {
-  color: white;
-}
-#city {
-  color: white;
-}
-#date {
-  color: white;
-}
-.description {
-  color: white;
-}
-.humadity {
-  color: white;
-}
-.wind {
-  color: white;
-}
+h1,
+#city,
+#date,
+.description,
+.humadity,
+.wind,
 h5 {
   color: white;
 }
@@ -36,58 +24,15 @@ h5 {
   width: 20%;
 }
 
-.humadity_icon {
-  width: 30%;
-}
-
+.humidity_icon,
 .wind_icon {
   width: 30%;
 }
 
-.day_1 {
-  border-radius: 10px;
-  height: 220px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  margin: 10px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  text-align: center;
-}
-.day_2 {
-  border-radius: 10px;
-  height: 220px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  margin: 10px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  text-align: center;
-}
-.day_3 {
-  border-radius: 10px;
-  height: 220px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  margin: 10px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  text-align: center;
-}
-.day_4 {
-  border-radius: 10px;
-  height: 220px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  margin: 10px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  text-align: center;
-}
+.day_1,
+.day_2,
+.day_3,
+.day_4,
 .day_5 {
   border-radius: 10px;
   height: 220px;
